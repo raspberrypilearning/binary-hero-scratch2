@@ -3,11 +3,7 @@
 How many notes can you play with four keys? It might be more than you think!
 
 --- task ---
-Open the 'Binary hero' Scratch starter project.
-
-**Online:** open the starter project at [rpf.io/binary-hero-on](http://rpf.io/binary-hero-on){:target="_blank"}. If you have a Scratch account, you can click on **Remix** in the top right-hand corner to save a copy of the project.
-
-**Offline:** open the [starter project](http://rpf.io/p/binary-hero-go){:target="_blank"}in the offline editor. If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+Open the 'Binary hero' Scratch [starter project](http://rpf.io/p/en/binary-hero-scratch2-go){:target="_blank"} in the offline editor. If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 --- /task ---
 
 Start by showing which key is being pressed. 
