@@ -1,58 +1,63 @@
+--- no-print ---
+
+This is the **Scratch 2** version of the project. There is also a [Scratch 3 version of the project](https://projects.raspberrypi.org/en/projects/binary-hero).
+
+--- /no-print ---
+
 ## Introduction
 
-Add project description here. What will learners be making?
+In this project you will make a game in which you play the notes of a song as they scroll down the Stage.
 
 ### What you will make
 
 --- no-print ---
-Add instructions for using the embedded content here.
+
+Click the green flag to start the game. Use the <kbd>z</kbd>, <kbd>x</kbd>, <kbd>c</kbd>, and <kbd>v</kbd> keys to play the correct notes when these reach the bottom of the Stage. You'll score ten points for every correct note you play.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/259028053/?autostart=false" frameborder="0"></iframe>
 </div>
+
 --- /no-print ---
 
 --- print-only ---
-![Complete project](images/showcase_static.png)
+
+The notes will fall from above, and you will have to press keys to "catch" and play the notes.
+![showcase](images/showcase.png)
+
 --- /print-only ---
-
---- collapse ---
----
-title: What you will need
----
-### Hardware
-
-+ Describe hardware here
-
-### Software
-
-+ Scratch 2.0 (either [online](http://rpf.io/scratchon) or [offline](http://rpf.io/scratchoff))
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
-
-### Downloads
-
-+ [rpf.io/project-name-go](http://rpf.io/project-name-go){:target="_blank"}
-
---- /collapse ---
 
 --- collapse ---
 ---
 title: What you will learn
 ---
+- How to use lists to store sequences of notes and timings
+- How to use custom blocks with inputs
+--- /collapse ---
 
-+ Two or three learning objectives
-+ ...should go here
+--- collapse ---
+---
+title: What you will need
+---
+
+### Hardware
+- A computer capable of running Scratch 2.0
+
+### Software
++ Scratch 2.0 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
+
+### Downloads
++ [Offline starter project](http://rpf.io/p/binary-hero-go){:target="_blank"}
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Additional information for educators
+title: Additional notes for educators
 ---
+--- no-print ---
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/binary-hero-scratch2/print).
+--- /no-print ---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/project-name/print){:target="_blank"}.
-
-[Here is a link to the resources for this project](http://rpf.io/project-name-go).
-
+You can [find the solution for this project here](http://rpf.io/p/binary-hero-get){:target="_blank"}.
 --- /collapse ---
