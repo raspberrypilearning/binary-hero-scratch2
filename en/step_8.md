@@ -39,7 +39,6 @@ show
 glide (2) secs to x: (20) y:(-130)
 +if <(note) = (costume #)> then
 change [score v] by (1)
-else
 end
 delete this clone
 ```
@@ -58,7 +57,6 @@ glide (2) secs to x: (20) y:(-130)
 if <(note) = (costume #)> then
 change [score v] by (1)
 +broadcast [correct v]
-else
 end
 delete this clone
 ```
