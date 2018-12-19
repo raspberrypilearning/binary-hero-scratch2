@@ -42,41 +42,12 @@ All of this code should be repeated `forever`{:class="blockcontrol"}.
 --- hint ---
 Here are the code blocks you need, and you have to add some of them more than once:
 ![stage](images/stage.png)
-```blocks
-forever
-end
-if < > then
-end
-key [ v] pressed?
-
-change [note v] by ( )
-
-set [note v] to [ ]
-
-when flag clicked
-```
+![blocks_1545217794_6936617](images/blocks_1545217794_6936617.png)
 --- /hint ---
 --- hint ---
 This is what your code should look like:
 ![stage](images/stage.png)
-```blocks
-when flag clicked
-forever
-set [note v] to [0]
-if <key [v v] pressed? > then
-change [note v] by (1)
-end
-if <key [c v] pressed? > then
-change [note v] by (2)
-end
-if <key [x v] pressed? > then
-change [note v] by (4)
-end
-if <key [z v] pressed? > then
-change [note v] by (8)
-end
-end
-```
+![blocks_1545217795_815427](images/blocks_1545217795_815427.png)
 --- /hint ---
 --- /hints ---
 --- /task ---

@@ -6,20 +6,11 @@ The newest section of code is difficult to read, so you're going to use more cus
 Make another block called `clear song`{:class="blockmoreblocks"} that deletes all items from both lists. Use this block before adding numbers back intothe lists.
 
 ![note-sprite](images/note-sprite.png)
-```blocks
-define clear song
-delete (all v) of [notes v]
-delete (all v) of [times v]
-```
+![blocks_1545217809_3616393](images/blocks_1545217809_3616393.png)
 
 When you test your code, it should work just as it did before.
 
-```blocks
-define load 'happy birthday'
-+clear song ::custom
-add [1] to [notes v]
-add [5] to [notes v]
-```
+![blocks_1545217810_4694672](images/blocks_1545217810_4694672.png)
 --- /task ---
 
 --- task ---
@@ -33,20 +24,7 @@ Make a block that takes a number as `note`{:class="blockdata"} and a number as `
 --- /hint ---
 --- hint ---
 This is what your code should look like:
-```blocks
-define Add note (note) at (time) secs
-add (note) to [notes v]
-add (time) to [times v]
-
-define load 'happy birthday'
-clear song ::custom
-+Add note (1) at (5) secs
-+Add note (1) at (5.5) secs
-+Add note (3) at (6) secs
-+Add note (1) at (7) secs
-+Add note (6) at (8) secs
-+Add note (5) at (9) secs
-```
+![blocks_1545217811_5994503](images/blocks_1545217811_5994503.png)
 --- /hint ---
 --- /hints ---
 

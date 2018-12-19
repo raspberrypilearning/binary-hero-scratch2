@@ -60,46 +60,13 @@ The items at the start of the `notes`{:class="blockdata"} and `times`{:class="bl
 --- hint ---
 Here are the code blocks you need:
 ![note](images/note-sprite.png)
-```blocks
-wait until <>
-when flag clicked
-length of [notes v]
-
-create clone of [myself v]
-
-reset timer
-item (1 v) of [times v]
-hide
-
-repeat until <>
-end
-[] > []
-item (1 v) of [notes v]
-() - ()
-switch costume to [ v]
-[] = []
-timer
-delete (1 v) of [times v]
-
-delete (1 v) of [notes v]
-```
+![blocks_1545217802_557496](images/blocks_1545217802_557496.png)
 
 --- /hint ---
 --- hint ---
 This is what your code should look like:
 ![note](images/note-sprite.png)
-```blocks
-when flag clicked
-reset timer
-hide
-repeat until <(length of [notes v]) = [0]>
-wait until <(timer) > ((item (1 v) of [times v]) - (2))>
-switch costume to (item (1 v) of [notes v])
-create clone of [myself v]
-delete (1 v) of [times v]
-delete (1 v) of [notes v]
-end
-```
+![blocks_1545217803_7552915](images/blocks_1545217803_7552915.png)
 --- /hint ---
 --- /hints ---
 --- /task ---
@@ -109,11 +76,5 @@ When you test your code now, nothing seems to happen, because the 'note' sprite 
 --- task ---
 Add code to make each 'note' clone glide from the top to the bottom of the Stage before being deleted.
 ![note](images/note-sprite.png)
-```blocks
-when I start as a clone
-go to x: (20) y: (160)
-show
-glide (2) secs to x: (20) y:(-130)
-delete this clone
-```
+![blocks_1545217804_9580748](images/blocks_1545217804_9580748.png)
 --- /task ---
