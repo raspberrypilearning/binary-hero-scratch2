@@ -1,4 +1,4 @@
-### Binary numbers
+## Binary numbers
 
 You will use different combinations of pressing the four keys to play different notes. Each of the keys is either on (pressed) or off (not pressed). This means that you can think of each combination of keys as a __binary number__.
 
