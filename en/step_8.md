@@ -18,12 +18,30 @@ Add to `score`{:class="blockdata"} whenever the player plays the correct note at
 --- hint ---
 Here are the code blocks you need:
 ![note](images/note-sprite.png)
-![blocks_1545217812_7206063](images/blocks_1545217812_7206063.png)
+```blocks
+[ ] = [ ]
+(costume #)
+(note)
+change [score v] by (1)
+
+if <> then
+else
+end
+```
 --- /hint ---
 --- hint ---
 This is what your code should look like:
 ![note](images/note-sprite.png)
-![blocks_1545217813_8342302](images/blocks_1545217813_8342302.png)
+```blocks
+when I start as a clone
+go to x: (20) y: (160)
+show
+glide (2) secs to x: (20) y:(-130)
++if <(note) = (costume #)> then
+change [score v] by (1)
+end
+delete this clone
+```
 --- /hint ---
 --- /hints ---
 --- /task ---
@@ -31,7 +49,17 @@ This is what your code should look like:
 --- task ---
 Broadcast a message called 'correct' when the correct note is played.
 ![note](images/note-sprite.png)
-![blocks_1545217814_9673197](images/blocks_1545217814_9673197.png)
+```blocks
+when I start as a clone
+go to x: (20) y: (160)
+show
+glide (2) secs to x: (20) y:(-130)
+if <(note) = (costume #)> then
+change [score v] by (1)
++broadcast [correct v]
+end
+delete this clone
+```
 --- /task ---
 
 --- task ---
@@ -40,5 +68,13 @@ Broadcast a message called 'correct' when the correct note is played.
 Add code to your Stage to briefly change the backdrop when the player plays the correct note. The project already contains a second backdrop for this.
 
 ![stage](images/stage.png)
-![blocks_1545217816_108](images/blocks_1545217816_108.png)
+```blocks
+when flag clicked
+switch backdrop to [normal v]
+
+when I receive [correct v]
+switch backdrop to [correct v]
+wait (0.3) secs
+switch backdrop to [normal v]
+```
 --- /task ---

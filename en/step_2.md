@@ -12,7 +12,15 @@ Start by showing which key is being pressed.
 Click on the sprite called '1', and add code to change the sprite's costume if the `v` key is pressed.
 
 ![costume](images/1.png)
-![blocks_1545217792_6016517](images/blocks_1545217792_6016517.png)
+```blocks
+when flag clicked
+forever
+if < key [v v] pressed?> then
+switch costume to [on v]
+else
+switch costume to [off v]
+end
+```
 
 When you test your code by pressing the <kbd>v</kbd> key, the sprite should light up.
 
