@@ -18,12 +18,36 @@ The `load 'happy birthday'`{:class="blockmoreblocks"} block should `delete all`{
 --- hint ---
 Here are the code blocks you need:
 ![notes-sprite](images/note-sprite.png)
-![blocks_1545217806_081072](images/blocks_1545217806_081072.png)
+```blocks
+delete (all v) of [notes v]
+
+define load 'happy birthday'
+
+add [1] to [notes v]
+
+delete (all v) of [times v]
+```
 --- /hint ---
 --- hint ---
 This is what your code should look like:
 ![notes-sprite](images/note-sprite.png)
-![blocks_1545217807_161185](images/blocks_1545217807_161185.png)
+```blocks
+define load 'happy birthday'
+delete (all v) of [notes v]
+delete (all v) of [times v]
+add [1] to [notes v]
+add [5] to [times v]
+add [1] to [notes v]
+add [5.5] to [times v]
+add [3] to [notes v]
+add [6] to [times v]
+add [1] to [notes v]
+add [7] to [times v]
+add [6] to [notes v]
+add [8] to [times v]
+add [5] to [notes v]
+add [9] to [times v]
+```
 --- /hint ---
 --- /hints ---
 --- /task ---
@@ -32,7 +56,12 @@ This is what your code should look like:
 --- task ---
 Test your new block by running it at the start of your project.
 ![notes-sprite](images/note-sprite.png)
-![blocks_1545217808_2729695](images/blocks_1545217808_2729695.png)
+```blocks
+when flag clicked
++load 'happy birthday' ::custom
+hide
+reset timer
+```
 
 Each of your lists should now contain six numbers.
 
